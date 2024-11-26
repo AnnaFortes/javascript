@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Verificando a nacionalidade</h1>
+    Qual é o seu país: <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="verificar" onclick="checar()">
+    <div id="res"></div> 
+
+    <script>
+        function checar() {
+            var nac = document.querySelector('input#txtnac').value //para acessar o input preciso usar a propriedade .value
+            var res = document.querySelector('div#res')
+            if (nac == 'Brasil') 
+            res.innerHTML = '<p>Voce é <strong>Brasileiro</strong></p>'
+            else {
+                res.innerHTML = '<p>Voce é <strong>estrangeiro</strong></p>'
+            }
+        }
+    </script>
+</body>
+</html>
