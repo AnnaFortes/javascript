@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(68, 140, 223, 0.628);
+    font: normal 1.2em Arial;
+}
+
+header {
+    color: #ffffff;
+    margin: 20px;
+    text-align: center;
+}
+
+section {
+    display: block;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 500px;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+}
+
+input {
+    margin: 8px;
+    padding: 5px;
+}
+
+footer {
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
