@@ -33,6 +33,15 @@ input {
     padding: 5px;
 }
 
+div#foto {
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
 footer {
     color: #ffffff;
     margin-top: 20px;
