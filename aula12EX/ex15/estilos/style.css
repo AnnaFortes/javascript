@@ -7,45 +7,30 @@
 }
 
 body {
-    background-color: rgba(68, 140, 223, 0.628);
+    background-color: rgba(40, 167, 217, 0.77);
     font: normal 1.2em Arial;
 }
 
 header {
     color: #ffffff;
-    margin: 20px;
     text-align: center;
+    margin: 20px;
 }
 
 section {
-    display: block;
     background-color: #ffffff;
-    border-radius: 8px;
+    border-radius: 5px;
+    padding: 15px;
     width: 500px;
     margin: auto;
-    padding: 15px;
-    margin-top: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
-}
-
-input {
-    margin: 8px;
-    padding: 5px;
-}
-
-div#foto {
-    text-align: center;
-    padding: 10px;
-}
-
-img {
-    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.198);
 }
 
 footer {
     color: #ffffff;
-    margin-top: 20px;
     text-align: center;
+    font-style: italic;
+    margin: 20px;
 }
 
 a {
