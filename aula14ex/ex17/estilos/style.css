@@ -26,6 +26,16 @@ section {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.198);
 }
 
+input {
+    padding: 2px;
+    font-size: 0.8em;
+}
+
+div#txt {
+    padding: 5px;
+    margin-top: 8px;
+}
+
 footer {
     color: #ffffff;
     text-align: center;
