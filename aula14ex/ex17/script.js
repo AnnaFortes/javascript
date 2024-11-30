@@ -1,7 +1,7 @@
 function tabuada() {
 var tab = Number(document.querySelector('input#num').value)
 
-if (isNaN(tab)) {
+if (isNaN(tab) || tab == 0) {
     alert('Por favor, digite um número!')
     return;
 } 
